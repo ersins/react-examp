@@ -16,7 +16,7 @@ const PostEdit = () => {
             .catch((err) => {
                 console.log(err);
             });
-    }, []);
+    }, [params]);
 
     return (
         <div>

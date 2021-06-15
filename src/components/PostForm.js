@@ -77,7 +77,7 @@ const PostForm = (props) => {
                 >
                     Submit
                 </button>
-                <button type="submit" className="ui button">
+                <button onClick={()=>history.push(`/post/${params.id}`)} type="submit" className="ui button">
                     Reset
                 </button>
             </div>
